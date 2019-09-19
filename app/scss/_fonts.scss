@@ -1,0 +1,17 @@
+@import "_mixins/font-face";
+
+
+
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Regular", normal, normal);
+@include font-face("RobotoMedium", "../fonts/Roboto/Roboto-Medium", 500, normal);
+@include font-face("RobotoBold", "../fonts/Roboto/Roboto-Bold", bold, normal);
+
+@include font-face("Oswald", "../fonts/Oswald/Oswald-Regular",normal,normal);
+@include font-face("Oswald", "../fonts/Oswald/Oswald-Medium",500,normal);
+@include font-face("Oswald", "../fonts/Oswald/Oswald-Bold",bold,normal);
+
+
+@include font-face("icon", "../fonts/icons/icon",normal,normal);
+
+
+
